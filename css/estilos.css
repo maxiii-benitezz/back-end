@@ -1,0 +1,16 @@
+body {background-color: ffbf64;}
+.centrar {text-align: center;}
+.blanco {color:white;
+font-weight: 1000;}
+.tamaño {font-size: large;}
+.subrayado {text-decoration-line: underline;}
+ img { width: 400px;
+height: auto;}
+.izquierda {text-align: right;}
+.mapa { float: right;}
+iframe{width: 400px;
+height: 200px;}
+ol li::marker{color: #FC8F9B;
+font-weight: bold;}
+li{font-size:large ;
+font-weight: bold;}
