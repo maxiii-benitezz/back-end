@@ -14,3 +14,34 @@ ol li::marker{color: #FC8F9B;
 font-weight: bold;}
 li{font-size:large ;
 font-weight: bold;}
+nav{
+    background-color: #f6d168  ;
+    padding: 0%;
+    margin: auto;
+    background: rgba (0,o,o,o.9);
+    width: 50%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+nav ul{list-style: none;
+    padding: 0%;
+    display: flex;
+}
+nav ul li {
+font-family: airal,sans-serif;
+font-size: 16px;}
+nav ul li a{display: block;
+padding: 10px;
+color: blanchedalmond;
+text-decoration: none;}
+nav ul li:hover{background: red;}
+section{padding-top: 80px;}
+.ig{width: 100px;
+height: auto;
+padding: 30px;}
+.Whatsapp{width: 100px;
+    height: auto;}
+.link{position: fixed;
+bottom: 20px;
+right: 20px;}
