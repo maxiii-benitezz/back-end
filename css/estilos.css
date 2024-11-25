@@ -1,4 +1,9 @@
 body{background-color: #ffbf64;
+    background-image: url(../imagenes/fondito.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;}
@@ -8,11 +13,11 @@ body{background-color: #ffbf64;
     font-weight: 1000;}
     .tamaño {font-size: large;}
     .subrayado {text-decoration-line: underline;}
-     img { width: 400px;
+     img { width: 350px;
     height: auto;}
     .izquierda {text-align: right;}
     .mapa { float: right;}
-    iframe{width: 400px;
+    iframe{width: 350px;
     height: 200px;}
     ol li::marker{color: #FC8F9B;
     font-weight: bold;}
@@ -90,4 +95,29 @@ flex-wrap: wrap;}
    nav{width: 80%;}
    nav ul{width: 50vw;}
    nav ul li{width: 60vw;}
-   
+.lados {display: flex;
+justify-content: space-between;}
+section {width: 70%;
+padding-top: 80px;
+padding-left: 20px;}
+.instrucciones {width: 90%;}
+aside {width: 25%;
+padding-top: 80px;
+padding-left: 20px;}
+@media (max-width: 950px){ .mapa { display: none;
+}
+    
+}
+@media (min-width: 950px){  .mapita { display: none;
+}
+    
+}
+@media (min-width: 700px){  .fondito { display: none;
+}
+    
+}
+@media (min-width: 700px){  body{ background-color: #ffbf64; background-image: none;} 
+    
+}
+
+    
