@@ -120,4 +120,11 @@ padding-left: 20px;}
     
 }
 
-    
+.card-title {color: brown;
+text-decoration: underline;
+display: flex;
+justify-content: center;}
+.tarjeta1 {padding-top: 20px;}
+.tarjeta2 {padding-top: 20px;}
+.tarjeta3 {padding-top: 20px;}
+.tarjeta4 {padding-top: 20px;}
