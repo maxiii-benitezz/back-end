@@ -61,7 +61,8 @@ flex-wrap: wrap;}
         height: auto;}
     .link{position: fixed;
     bottom: 20px;
-    right: 20px;}
+    right: 20px;
+z-index: 999;}
     header {display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -128,3 +129,16 @@ justify-content: center;}
 .tarjeta2 {padding-top: 20px;}
 .tarjeta3 {padding-top: 20px;}
 .tarjeta4 {padding-top: 20px;}
+.visual {background-color: #f6d168; border:#f6d168;
+    
+}
+.visual:hover{background: white;}
+.informacion{ display: flex;
+    background-color:blanchedalmond;
+padding-right: 50px;
+height: 40px;
+border:blanchedalmond ;
+border-radius: 25%;
+text-align: center;}
+.informacion:hover{background: white;}
+.card{ z-index: 1;}
