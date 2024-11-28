@@ -6,7 +6,9 @@ body{background-color: #ffbf64;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+padding-left: 20px;}
+
     h1{font-size: 175%;}
     .centrar {text-align: center;}
     .blanco {color:white;
@@ -30,6 +32,7 @@ body{background-color: #ffbf64;
         width: 50%;
         display: flex;
         justify-content: center;
+        padding-left: 20px;
        
     }
     nav ul{ background-color: #f6d168;
@@ -142,3 +145,12 @@ border-radius: 25%;
 text-align: center;}
 .informacion:hover{background: white;}
 .card{ z-index: 1;}
+.flecha1{width: 100px;
+height: auto;}
+.flecha2{width: 100px;
+    height: auto;
+padding-top: 500px;}
+.flecha3{width: 100px;
+    height: auto;
+display: flex;
+align-items: center;}
