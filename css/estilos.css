@@ -1,15 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
 body{background-color: #ffbf64;
     background-image: url(../imagenes/fondito.jpg);
     background-size: cover;
     background-repeat: repeat;
     margin: 0;
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 padding-left: 20px;}
 
-    h1{font-size: 175%;}
+    h1{font-size: 175%;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    h2{font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal; }
+    ul{font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;}
+    ol{font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-variation-settings:
+              "wdth" 100;}
     .centrar {text-align: center;}
     .blanco {color:white;
     font-weight: 1000;}
@@ -29,15 +48,16 @@ padding-left: 20px;}
         background-color: #f6d168  ;
         padding: 0%;
         margin: auto;
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
-        padding-left: 20px;
+        padding-left: 250px;
        
     }
     nav ul{ background-color: #f6d168;
         list-style: none;
         padding: 0%;
+        margin: 0;
         display: flex;
         justify-content: center;
     }
